@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar_db {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    padding: 20px;
+}
+
+.i_logo {
+    width: 30px;
+    height: 30px;
+    background-color: bisque;
+    border-radius: 20px;
+    float: left;
+}
+
+.w_logo {
+    text-align: right;
+    padding-top: 10px;
+    color: white;
+    font-size: small;
+}
+
+.profile {
+    padding: 10px;
+}
+
+.profile a {
+    text-decoration: none;
+}
+
+.w_profile {
+    font-size: 1rem;
+    color: white;
+    font-weight: 200;
+    margin-top: 5px;
+    margin-left: 25px;
+    padding: 10px;
+}
+
+.i_profile {
+    width: 25px;
+    height: 25px;
+    margin-top: 10px;
+    border-radius: 20px;
+    float: left;
+}
