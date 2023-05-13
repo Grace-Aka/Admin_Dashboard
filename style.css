@@ -121,6 +121,7 @@ hr {
     border-radius: 10px;
     border-bottom: 10px;
     height: 5rem;
+    box-shadow: 1px 1px 3px gray;
     position: relative;
     cursor: pointer;
     border: 3px solid rgba(255, 255, 255, 0.461);
@@ -215,6 +216,7 @@ h2 {
     border-radius: 10px;
     height: 15rem;
     width: 18rem;
+    box-shadow: 1px 2px 3px gray;
     position: relative;
     cursor: pointer;
     border: 3px solid rgba(255, 255, 255, 0.461);
