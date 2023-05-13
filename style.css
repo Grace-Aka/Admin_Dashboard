@@ -190,3 +190,48 @@ hr {
     padding: 20px;
 }
 
+.listing {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    padding-top: 30px;
+    height: 20vh;
+    width: 80vw;
+}
+
+.list {
+    background-color: rgba(255, 255, 255, 0.664);
+    padding: 5px;
+    border-radius: 10px;
+    height: 15rem;
+    width: 18rem;
+    position: relative;
+    cursor: pointer;
+    border: 3px solid rgba(255, 255, 255, 0.461);
+}
+
+.pic_new {
+    margin-top: -30px;
+    border-radius: 5px;
+    height: 10rem;
+    width: 18rem;
+}
+
+.write_new {
+    text-align: center;
+    color: grey;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: small;
+}
+
+.gist {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 10px;
+}
+
+.add_new {
+    margin-top: 5px;
+    margin-left: 65px;
+}
