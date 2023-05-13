@@ -96,7 +96,12 @@ hr {
 }
 
 .sidebar_links a:hover {
-    border-bottom: 2px solid white;
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 5px;
+    padding: 5px;
+    height: 1rem;
+    width: 9rem;
 }
 
 .cards {
