@@ -1,0 +1,249 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    background-image: url(Assets/mountain\ snow.jpg);
+    background-size: 100vh;
+    background-repeat: no-repeat;
+    background-blend-mode: color-burn;
+    background-color: rgba(255, 0, 0, 0.622);
+}
+
+.sidebar_db {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    padding: 10px;
+}
+
+.i_logo {
+    width: 30px;
+    height: 30px;
+    background-color: bisque;
+    border-radius: 20px;
+    float: left;
+}
+
+.w_logo {
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+    font-size: small;
+}
+
+hr {
+    margin-top: 15px;
+}
+
+.profile {
+    padding: 10px;
+}
+
+.profile a {
+    text-decoration: none;
+}
+
+.p_profile {
+    font-size: 1rem;
+    color: white;
+    font-weight: 200;
+    margin-top: 5px;
+    margin-left: 25px;
+    padding: 10px;
+}
+
+.i_profile {
+    width: 25px;
+    height: 25px;
+    margin-top: 10px;
+    border-radius: 20px;
+    float: left;
+}
+
+.sidebar_links {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.caut1 {
+    width: 20px;
+    height: 20px;
+    margin-right: 15px;
+    float: left;
+}
+
+.sidebar_links a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: 100;
+    margin-bottom: 20px;
+    width: fit-content;
+}
+
+.sidebar_links a:hover {
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 5px;
+    padding: 5px;
+    height: 1rem;
+    width: 9rem;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+    padding-top: 30px;
+    padding-left: 10px;
+    margin: 10px;
+    height: 20vh;
+    width: 80vw;
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.664);
+    padding: 10px;
+    border-radius: 10px;
+    border-bottom: 10px;
+    height: 5rem;
+    box-shadow: 1px 1px 3px gray;
+    position: relative;
+    cursor: pointer;
+    border: 3px solid rgba(255, 255, 255, 0.461);
+}
+
+.pic1 {
+    padding: 7px;
+    margin-top: -30px;
+    border-radius: 5px;
+    background-color: rgb(255, 168, 7);
+    float: left;
+}
+
+.pic2 {
+    padding: 7px;
+    margin-top: -30px;
+    border-radius: 5px;
+    background-color: rgb(227, 60, 116);
+    float: left;
+}
+
+.pic3 {
+    padding: 7px;
+    margin-top: -30px;
+    border-radius: 5px;
+    background-color: rgb(105, 168, 10);
+    float: left;
+}
+
+.pic4 {
+    padding: 7px;
+    margin-top: -30px;
+    border-radius: 5px;
+    background-color:rgb(24, 151, 230);
+    float: left;
+}
+
+.write {
+    text-align: right;
+    color: grey;
+    margin-bottom: 10px;
+    font-size: small;
+}
+
+hr {
+    margin-top: 15px;
+}
+
+.add {
+    margin-top: 18px;
+}
+
+.caut {
+    width: 10px;
+    height: 10px;
+    float: left;
+}
+
+.under1 {
+    font-size: xx-small;
+    margin-left: 15px;
+    color: purple;
+}
+
+.under {
+    font-size: xx-small;
+    margin-left: 15px;
+    color: grey;
+}
+
+.info {
+    padding: 20px;
+    margin-top: 10px;
+}
+
+h2 {
+    margin: 10px;
+}
+
+.listing {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    padding-top: 30px;
+    height: 20vh;
+    width: 80vw;
+}
+
+.list {
+    background-color: rgba(255, 255, 255, 0.664);
+    padding: 5px;
+    border-radius: 10px;
+    height: 15rem;
+    width: 18rem;
+    box-shadow: 1px 2px 3px gray;
+    position: relative;
+    cursor: pointer;
+    border: 3px solid rgba(255, 255, 255, 0.461);
+}
+
+.pic_new {
+    margin-top: -30px;
+    border-radius: 5px;
+    height: 10rem;
+    width: 18rem;
+}
+
+.write_new {
+    text-align: center;
+    color: grey;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: small;
+}
+
+.gist {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 10px;
+}
+
+.add_new {
+    margin-top: 5px;
+    margin-left: 65px;
+}
